@@ -15,6 +15,15 @@
             }
         },
         {
+            "name": "cp",
+            "env" : {
+                "coalescing" : {
+                    "interval" : 10,
+                    "maxPendingUpdates" : 1
+                }
+            }
+        },
+        {
             "name": "security",
             "env" : {
                 "allowNobodyUser" : true
